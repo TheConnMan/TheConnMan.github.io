@@ -29,6 +29,11 @@ h2, h3 {
 	color: #666;
 }
 
+img {
+	width: 200px;
+	padding: 10px;
+}
+
 p {
 	color: #555555;
 }
@@ -52,6 +57,24 @@ p {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	color: #555555;
+}
+
+.quote {
+	margin: 0 15px 0 15px;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+/* Images */
+
+.leftImg {
+	float: left;
+}
+
+.rightImg {
+	float: right;
 }
 
 /* Menu */

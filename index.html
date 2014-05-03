@@ -20,18 +20,13 @@
 			<div id="menuHeader">
 				<ul id="menu">
 					<li>
-						<a href="#games">Games</a>
-						<ul>
-							<li>
-								<a href="https://theconnman.github.io/Circles">Circles</a>
-							</li>
-							<li>
-								<a href="https://theconnman.github.io/Briangles">Briangles</a>
-							</li>
-							<li>
-								<a href="https://theconnman.github.io/ShapeEscape">Shape Escape</a>
-							</li>
-						</ul>
+						<a href="https://theconnman.github.io/Circles">Circles</a>
+					</li>
+					<li>
+						<a href="https://theconnman.github.io/Briangles">Briangles</a>
+					</li>
+					<li>
+						<a href="https://theconnman.github.io/ShapeEscape">Shape Escape</a>
 					</li>
 					<li>
 						<a href="#about">About Me</a>
@@ -49,22 +44,71 @@
 				<a href="https://theconnman.github.io/Circles">Circles</a> and <a href="https://theconnman.github.io/Briangles">Briangles</a> use variations of
 				the same game engine, which was also fun to make.
 			</p>
-			<h3>Circles</h3>
-			<p>
-				
-			</p>
-			<h3>Shape Escape</h3>
-			<p>
-				
-			</p>
+			<a href="https://theconnman.github.io/Briangles"><img class="rightImg" src="./images/Briangles.png" /></a>
 			<h3>Briangles</h3>
 			<p>
-				<a href="https://theconnman.github.io/Briangles">Briangles</a> is the first game I created. It's a little complicated and didn't go over as
+				Briangles is the first game I created. It's a little complicated and didn't go over as
 				well as I hoped, but it's unique and was fun to make (except for the trigonometry I had to do to get the triangles to rotate correctly).
+				It was a good first experiment in D3 and was my first real experience with <a href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a>.
+				Briangles is also where I created the basic single-page layout and CSS. The narrow content, gray scale color scheme was influenced by other GitHub
+				pages sites and I used it throughout my other games and this site.
+			</p>
+			<p>
+				The goal and instructions of Briangles are below and the game can be played by clicking on the screenshot to the right. The code is all public on 
+				<a href="https://github.com/TheConnMan/Briangles">GitHub</a>.
+			</p>
+			<p class="quote">
+				<b>GOAL:</b> The goal of the game is to split up the rest of the triangle colors into their primary components of red, green, and blue and move these 
+	        	primary colors into their corresponding corner in the minimum number of splits.
+	        	<br></br>
+	        	<b>HOW TO PLAY:</b> Each triangle starts filled with a random color and its three borders each represent a primary color. <b>Right click</b>
+	        	on a triangle to separate its fill color into red, green, and blue. Each primary color passes through its designated border and its intensity is added 
+	        	to the adjacent triangle. <b>Left click</b> to rotate a triangle, changing which adjacent triangles receive which colors.
+			</p>
+			<a href="https://theconnman.github.io/Circles"><img class="leftImg" src="./images/Circles.png" /></a>
+			<h3>Circles</h3>
+			<p>
+				Circles is the second game I created and was significantly more successful than Briangles. I tried to keep play very simple and make levels which would get
+				more and more difficult. Some of the earliest feedback was that the game got boring after a few levels. This was because the next level just meant there was 
+				an additional circle and they would all move faster (lame). I decided to pull most of the internal game logic out into parameter which would describe each level
+				(for the techies out there <a href="https://github.com/TheConnMan/Circles/tree/50a93b9e8eb6d61ec7d8aa5499fce6aa7868424b">here's the actual commit</a>). This led 
+				to more flexibility in level description. I had unknowingly created a game engine.
+			</p>
+			<p>
+				The game engine led to a wide array of easily created levels (they're all described in a single line of JSON), but that just means less work for me. The benefit for
+				users is that they can create their own levels if given the tools to construct these parameters. Early on I added these tools (accessible after beating 10 levels) so
+				users can experiment with the engine and even submit their own levels to the creator (me).
+			</p>
+			<p>
+				The goal and instructions of Circles are below and the game can be played by clicking on the screenshot to the left. The code is all public on 
+				<a href="https://github.com/TheConnMan/Circles">GitHub</a>.
+			</p>
+			<p class="quote">
+				<b>GOAL:</b> The goal of each level is to create as large of a bubble as possible without it touching the moving circles. Clicking on the game will create
+	        	a small bubble which gets larger with a constant speed. The bubble stops growing when any other circle runs into it. To pass the level you need to reach a size of over 100.
+	        	If you beat the first 10 levels you get to create custom levels of your own.
+	        	<br></br>
+	        	<b>HOW TO PLAY:</b> At first there will be a few slow moving circles. Click anywhere on the board (probably in a space where other circles are moving away)
+	        	and a bubble will begin to grow. There is a threshold size for the bubble to advance to the next level. Each level has more, faster moving obstacles.
+			</p>
+			<a href="https://theconnman.github.io/ShapeEscape"><img class="rightImg" src="./images/ShapeEscape.png" /></a>
+			<h3>Shape Escape</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis, lorem ut pretium dignissim, augue enim volutpat augue, non vehicula mauris libero in nisi. Aenean mauris quam, vehicula quis ultrices eu, luctus sed risus. Etiam eu ligula eu mi adipiscing pharetra. Donec condimentum, eros et tristique molestie, leo velit feugiat lectus, ac porta lectus urna quis elit. Nulla facilisi. Mauris dui arcu, ultrices quis condimentum et, feugiat sed dui. Nulla cursus dolor id lobortis pellentesque. Ut eu gravida enim. Aliquam erat volutpat. Aenean in nisi est.
+			</p>
+			<p>
+				The goal and instructions of Shape Escape are below and the game can be played by clicking on the screenshot to the right. The code is all public on 
+				<a href="https://github.com/TheConnMan/ShapeEscape">GitHub</a>.
+			</p>
+			<p class="quote">
+				<b>GOAL:</b> Stay alive for 10 seconds! Avoid getting touched by any of the many enemies around the map.
+	        	<br></br>
+	        	<b>HOW TO PLAY:</b> Use the arrow keys to move around the map. The game starts when you start moving, so make a play and stay alive!
 			</p>
 			<h2 id="about">About Me</h2>
 			<p>
-				I'm a software developer who has a recent interest in web development.
+				I'm a software developer who has a recent interest in web development. I'm an MIT grad with a Physics degree, so I'm going back to my roots
+				by writing some game engines (not really, I haven't implemented any Quantum Mechanics). Before web development I'
 			</p>
         </div>
 		<div id="footer">
