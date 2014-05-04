@@ -2,6 +2,7 @@
 <html>
     <head>
 		<link href="./css/theconnman.css" type="text/css" rel="stylesheet" />
+		<link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
         <title>TheConnMan</title>
     </head>
     <body>
@@ -34,9 +35,9 @@
 				</ul>
 			</div>
 			<h1>TheConnMan</h1>
-			<p>
+			<h3 style="margin-top: 0px">
 				A site for JavaScript things.
-			</p>
+			</h3>
 			<h2>Games</h2>
 			<p>
 				Below are some games I've created using <a href="http://jquery.com/">jQuery</a> and <a href="http://d3js.org/">D3</a>. I used them as
@@ -44,8 +45,8 @@
 				<a href="https://theconnman.github.io/Circles">Circles</a> and <a href="https://theconnman.github.io/Briangles">Briangles</a> use variations of
 				the same game engine, which was also fun to make.
 			</p>
-			<a href="https://theconnman.github.io/Briangles"><img class="rightImg" src="./images/Briangles.png" /></a>
 			<h3>Briangles</h3>
+			<a href="https://theconnman.github.io/Briangles"><img class="rightImg" src="./images/Briangles.gif" /></a>
 			<p>
 				Briangles is the first game I created. It's a little complicated and didn't go over as
 				well as I hoped, but it's unique and was fun to make (except for the trigonometry I had to do to get the triangles to rotate correctly).
@@ -58,15 +59,15 @@
 				<a href="https://github.com/TheConnMan/Briangles">GitHub</a>.
 			</p>
 			<p class="quote">
-				<b>GOAL:</b> The goal of the game is to split up the rest of the triangle colors into their primary components of red, green, and blue and move these 
+				<span class="inlineTitle">GOAL:</span> The goal of the game is to split up the rest of the triangle colors into their primary components of red, green, and blue and move these 
 	        	primary colors into their corresponding corner in the minimum number of splits.
 	        	<br></br>
-	        	<b>HOW TO PLAY:</b> Each triangle starts filled with a random color and its three borders each represent a primary color. <b>Right click</b>
+	        	<span class="inlineTitle">HOW TO PLAY:</span> Each triangle starts filled with a random color and its three borders each represent a primary color. <b>Right click</b>
 	        	on a triangle to separate its fill color into red, green, and blue. Each primary color passes through its designated border and its intensity is added 
 	        	to the adjacent triangle. <b>Left click</b> to rotate a triangle, changing which adjacent triangles receive which colors.
 			</p>
-			<a href="https://theconnman.github.io/Circles"><img class="leftImg" src="./images/Circles.png" /></a>
 			<h3>Circles</h3>
+			<a href="https://theconnman.github.io/Circles"><img class="leftImg" src="./images/Circles.gif" /></a>
 			<p>
 				Circles is the second game I created and was significantly more successful than Briangles. I tried to keep play very simple and make levels which would get
 				more and more difficult. Some of the earliest feedback was that the game got boring after a few levels. This was because the next level just meant there was 
@@ -84,26 +85,37 @@
 				<a href="https://github.com/TheConnMan/Circles">GitHub</a>.
 			</p>
 			<p class="quote">
-				<b>GOAL:</b> The goal of each level is to create as large of a bubble as possible without it touching the moving circles. Clicking on the game will create
+				<span class="inlineTitle">GOAL:</span> The goal of each level is to create as large of a bubble as possible without it touching the moving circles. Clicking on the game will create
 	        	a small bubble which gets larger with a constant speed. The bubble stops growing when any other circle runs into it. To pass the level you need to reach a size of over 100.
 	        	If you beat the first 10 levels you get to create custom levels of your own.
 	        	<br></br>
-	        	<b>HOW TO PLAY:</b> At first there will be a few slow moving circles. Click anywhere on the board (probably in a space where other circles are moving away)
+	        	<span class="inlineTitle">HOW TO PLAY:</span> At first there will be a few slow moving circles. Click anywhere on the board (probably in a space where other circles are moving away)
 	        	and a bubble will begin to grow. There is a threshold size for the bubble to advance to the next level. Each level has more, faster moving obstacles.
 			</p>
-			<a href="https://theconnman.github.io/ShapeEscape"><img class="rightImg" src="./images/ShapeEscape.png" /></a>
 			<h3>Shape Escape</h3>
+			<a href="https://theconnman.github.io/ShapeEscape"><img class="rightImg" src="./images/ShapeEscape.gif" /></a>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis, lorem ut pretium dignissim, augue enim volutpat augue, non vehicula mauris libero in nisi. Aenean mauris quam, vehicula quis ultrices eu, luctus sed risus. Etiam eu ligula eu mi adipiscing pharetra. Donec condimentum, eros et tristique molestie, leo velit feugiat lectus, ac porta lectus urna quis elit. Nulla facilisi. Mauris dui arcu, ultrices quis condimentum et, feugiat sed dui. Nulla cursus dolor id lobortis pellentesque. Ut eu gravida enim. Aliquam erat volutpat. Aenean in nisi est.
+				Shape Escape is the latest installment and is largely bootstrapped off of Circles. The UI and game engine structure are almost identical, but the game play is 
+				very different. In Shape Escape the user moves around using the arrow keys and tries to avoid the other shapes for 10 seconds. Currently all the other shapes 
+				are circles, but I'm hoping to add more soon. Shape Escape is very much still in development and all feedback is appreciated.
 			</p>
 			<p>
 				The goal and instructions of Shape Escape are below and the game can be played by clicking on the screenshot to the right. The code is all public on 
 				<a href="https://github.com/TheConnMan/ShapeEscape">GitHub</a>.
 			</p>
 			<p class="quote">
-				<b>GOAL:</b> Stay alive for 10 seconds! Avoid getting touched by any of the many enemies around the map.
+				<span class="inlineTitle">GOAL:</span> Stay alive for 10 seconds! Avoid getting touched by any of the many enemies around the map.
 	        	<br></br>
-	        	<b>HOW TO PLAY:</b> Use the arrow keys to move around the map. The game starts when you start moving, so make a play and stay alive!
+	        	<span class="inlineTitle">HOW TO PLAY:</span> Use the arrow keys to move around the map. The game starts when you start moving, so make a play and stay alive!
+			</p>
+			<h2 id="plugins">Plugins</h2>
+			<p>
+				I've also written one <a href="https://plugins.jquery.com/">jQuery plugin</a>.
+			</p>
+			<h3>Doc Collapse</h3>
+			<p>
+				My first and only jQuery plugin is <a href="https://plugins.jquery.com/doccollapse/">Doc Collapse</a>. I was writing the long and tedious docs for my
+				startup and couldn't find a good plugin to collapse the docs to make them more manageable. There were a few collapsible 
 			</p>
 			<h2 id="about">About Me</h2>
 			<p>
