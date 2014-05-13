@@ -133,7 +133,6 @@ p {
 #menu li:hover ul {
     display: block;
 }
-
 #menu {
     font-family: Arial;
     font-size: 14px;
@@ -148,7 +147,6 @@ p {
     background: #1794EE;
     color: #000;
 }
-
 #menu ul {
     background: #1794EE;
 }
@@ -156,7 +154,7 @@ p {
     color: #000;
 }
 #menu ul li:hover a {
-    background: #1794EE;
+    background: #37B4FF;
 }
 
 #menu ul li {
