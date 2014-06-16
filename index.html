@@ -2,12 +2,14 @@
 <html>
     <head>
 		<link href="./css/theconnman.css" type="text/css" rel="stylesheet" />
+		<link href="./css/github-miniprofile.css" type="text/css" rel="stylesheet" />
 		<link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
         <title>TheConnMan</title>
     </head>
     <body>
         <script src="./js/jquery-2.1.0.min.js"></script>
         <script src="./js/theconnman.js" charset="utf-8"></script>
+        <script src="./js/jquery.github-miniprofile.js" charset="utf-8"></script>
         <script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -60,10 +62,19 @@
 					</li>
 				</ul>
 			</div>
-			<h1>TheConnMan</h1>
-			<h3 style="margin-top: 0px">
-				A site for JavaScript things.
-			</h3>
+			<table>
+				<tr>
+					<td>
+						<span id="card"></span>
+					</td>
+					<td>
+						<h1 style="margin-top: 0px; text-align: right;">TheConnMan</h1>
+						<h3 style="margin-top: 0px; text-align: right;">
+							A site for JavaScript things.
+						</h3>
+					</td>
+				</tr>
+			</table>
 			<h2>Games</h2>
 			<p>
 				Below are some games I've created using <a href="http://jquery.com/">jQuery</a> and <a href="http://d3js.org/">D3</a>. I used them as
@@ -148,14 +159,21 @@
 			</p>
 			<h2 id="plugins">Plugins</h2>
 			<p>
-				I've also written one <a href="https://plugins.jquery.com/">jQuery plugin</a>.
+				I've also written two <a href="https://plugins.jquery.com/">jQuery plugins</a>.
 			</p>
 			<h3>Doc Collapse</h3>
 			<p>
-				My first and only jQuery plugin is <a href="https://plugins.jquery.com/doccollapse/">Doc Collapse</a>. I was writing the long and tedious docs for my
+				My first jQuery plugin is <a href="https://plugins.jquery.com/doccollapse/">Doc Collapse</a>. I was writing the long and tedious docs for my
 				startup and couldn't find a good plugin to collapse the docs to make them more manageable. There were a few collapsible plugins out there, but they were 
 				usually only one level deep. I wanted an infinitely deep (hopefully your docs aren't that deep...) collapsible plugin with indentation, rotating indicators, 
 				and smart formatting, so I created Doc Collapse.
+			</p>
+			<h3>GitHub Mini-Profile</h3>
+			<p>
+				My second jQuery plugin is <a href="http://plugins.jquery.com/github-miniprofile/">GitHub Mini-Profile</a>. I found a GitHub Card project, but it required users
+				to import HTML, some JavaScript, and some CSS. More importantly, it wasn't customizable. I decided to run with the idea and generated the first few versions of
+				GitHub Mini-Profile in a few hours one Sunday. It is entirely in JavaScript and CSS, so there is no need to import any HTML. It is also customizable so you can
+				show different fields and customize the colors. The plugin is even used on this site to create the card at the top.
 			</p>
 			<h2 id="about">About Me</h2>
 			<p>
