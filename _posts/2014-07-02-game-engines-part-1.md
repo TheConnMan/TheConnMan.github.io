@@ -19,6 +19,8 @@ Out of the smoldering ruins of ShapeEscape came [Circles](/Circles). The goal of
 
 Initially Circles had fairly hard coded levels. There was flexibility on the number of circles and their speed, but that was about it. Let's take a look at some of the code. The Gist below is take almost verbatim from [this commit](https://github.com/TheConnMan/Circles/blob/b2266f5e55616811114e5ea2f55b9443848acb27/js/circles.js).
 
+{% gist 66d904156ddf8a0d3ac7 %}
+
 Not the greatest, right? When you put these two chunks of code next to each other it's fairly easy to see where some generalization could take place. A lot of rendering using D3 goes on around this code, but these are the guts of the `redraw()` method. Essentially `redraw()` says take the old position (stored in the `d` variable), check if the circle is bouncing off the edge (lines 16-24), and update the position accordingly (lines 26-27). Not terribly exciting.
 
 #### So what do we do?
