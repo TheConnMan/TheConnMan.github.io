@@ -9,7 +9,9 @@ tags: [javascript, games]
 
 # Recap
 
-[Last article](/coding/2014/07/02/game-engines-part-1) I laid out the problem of having very restrictive code within my game [Circles](/Circles). This post will describe how to reshape this interior code to intelligently evaluate parameters instead of relying on those parameters to be fixed. We'll also explore a little of the flexibility which falls out of developing this game engine.
+
+
+[Last article]({% post_url 2014-07-02-game-engines-part-1 %}) I laid out the problem of having very restrictive code within my game [Circles](/Circles). This post will describe how to reshape this interior code to intelligently evaluate parameters instead of relying on those parameters to be fixed. We'll also explore a little of the flexibility which falls out of developing this game engine.
 
 ##  A Little Generalization
 
