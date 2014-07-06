@@ -29,5 +29,4 @@ The improvements we need are twofold. First, we need to generalize the behavior 
 
 Once we are able to serialize behaviors we need a way to execute them. This will come from generalizing the `redraw()` function. Essentially we'll have to check to see if a variable is a function (i.e. a variable speed) and execute it if it is. This generalized renderer paired with standardized serializations of behaviors is what will become our game engine. Check the next post to see how these generalizations were implemented.
 
-
 **NOTE:** All code examples used in the posts in this series can be found in a [gist](https://gist.github.com/TheConnMan/66d904156ddf8a0d3ac7) found on [my GitHub account](https://github.com/TheConnMan).

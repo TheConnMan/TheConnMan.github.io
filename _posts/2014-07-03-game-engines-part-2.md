@@ -9,8 +9,6 @@ tags: [javascript, games]
 
 # Recap
 
-
-
 [Last article]({% post_url 2014-07-02-game-engines-part-1 %}) I laid out the problem of having very restrictive code within my game [Circles](/Circles). This post will describe how to reshape this interior code to intelligently evaluate parameters instead of relying on those parameters to be fixed. We'll also explore a little of the flexibility which falls out of developing this game engine.
 
 ##  A Little Generalization
@@ -77,3 +75,5 @@ The physics defined in lines 2-17 are also stored within an object of functions.
 ## Next
 
 It's amazing how much flexibility can come from just a few abstractions. Pulling out level definitions into a single `level` object helped us define distinct levels, but it was really the leap to setting those metadata definitions to *functions* that brought the flexibility. Once that was in place we could define all sorts of dynamic behaviors. This is only half the battle, though, because now we need to refactor the hard coded `redraw()` function to something that can render these behaviors. Check out the next post to see how we can transform it into a game engine.
+
+**NOTE:** All code examples used in the posts in this series can be found in a [gist](https://gist.github.com/TheConnMan/66d904156ddf8a0d3ac7) found on [my GitHub account](https://github.com/TheConnMan).
