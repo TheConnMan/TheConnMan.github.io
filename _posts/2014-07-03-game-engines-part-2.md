@@ -5,7 +5,6 @@ tagline: "A Lot Of Refactoring"
 category: coding
 tags: [javascript, games]
 ---
-{% include JB/setup %}
 
 # Recap
 

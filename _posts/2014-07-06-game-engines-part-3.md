@@ -5,7 +5,6 @@ tagline: "An Underwhelming Amount of Code"
 category: coding
 tags: [javascript, games]
 ---
-{% include JB/setup %}
 
 # Recap
 

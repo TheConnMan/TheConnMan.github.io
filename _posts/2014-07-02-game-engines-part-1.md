@@ -5,7 +5,6 @@ tagline: "An Accidental Story"
 category: coding
 tags: [javascript, games]
 ---
-{% include JB/setup %}
 
 I have a tendency to generalize code and often get carried away. On occasion I get right and come up with a nifty set of clean, extensible, generalized code. This is one of those occasions.
 
