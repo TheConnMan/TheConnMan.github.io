@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "Game Engines Part 3"
-tagline: "An Underwhelming Amount of Code"
-category: coding
+category: technical
 tags: [javascript, games]
 ---
 

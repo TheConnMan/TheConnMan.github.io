@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "Game Engines Part 1"
-tagline: "An Accidental Story"
-category: coding
+category: technical
 tags: [javascript, games]
 ---
 

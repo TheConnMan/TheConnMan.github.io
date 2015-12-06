@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "Game Engines Part 2"
-tagline: "A Lot Of Refactoring"
-category: coding
+category: technical
 tags: [javascript, games]
 ---
 
