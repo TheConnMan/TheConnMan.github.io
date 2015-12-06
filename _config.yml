@@ -3,3 +3,10 @@ highlighter: pygments
 url: http://example.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+include: ['_pages']
