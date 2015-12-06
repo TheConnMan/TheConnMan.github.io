@@ -16,9 +16,8 @@ social:
   #flickr: johndoe
 
 # "Hi, I'm _______"
-name: Brian Conn
-email: test@example.com
-tagline: "weak opinions, strongly held"
+name: TheConnMan
+email: brian@theconnman.com
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-48858955-1
