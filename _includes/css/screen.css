@@ -13,6 +13,9 @@ body {
   color: #222222;
   line-height: 24px;
   margin: 0;
+}
+
+.wrapper {
   border-top: 7px solid {{ site.data.theme.highlight_color }};
 }
 
