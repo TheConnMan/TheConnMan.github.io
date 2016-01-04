@@ -1,11 +1,14 @@
 ---
 layout: post
 title: "Transient - A Simple Non-Persistent Chat App"
+image: http://theconnman.com/assets/images/Transient.png
 category: technical
 tags: [development, node.js, websockets]
 ---
 
 **NOTE:** The full repo of the following project can be found at [https://github.com/TheConnMan/Transient](https://github.com/TheConnMan/Transient)
+
+![Transient Screenshot](/assets/images/Transient.png)
 
 ## WebSockets
 One of the items on my "To Learn" list recently was [WebSockets](https://en.wikipedia.org/wiki/WebSocket). WebSockets are another of the next-generation (at least five years ago when it was standardized) web technologies which make using websites even nicer for users. From Wikipedia:
