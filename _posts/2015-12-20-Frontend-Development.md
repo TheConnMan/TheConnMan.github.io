@@ -5,7 +5,6 @@ category: philosophy
 tags : [philosophy, development]
 ---
 
-## Modern Frontend Engineering
 A few months back I went to the SpringOne 2GX conference to learn about the latest and greatest for Spring and Grails. The talks I focused on were mainly on server-side Grails and system architectures (like **microservices**, which I've been [playing around with](https://github.com/TheConnMan/microservices) quite a bit lately). The last talk I attended, however, was called [Modern Frontend Engineering](https://2015.event.springone2gx.com/schedule/sessions/modern_frontend_engineering.html) and focused on frontend development. I consider myself a full-stack dev, so frontend development is just part of the job. I went into the talk expecting to learn a few things, but instead I got a wakeup call.
 
 The talk, which has slides [here](http://www.slideshare.net/SpringCentral/modern-frontend-engineering) dove into everything from frontend dependency management ([Bower](http://bower.io/)) and task running ([Gulp](http://gulpjs.com/) and [Grunt](http://gruntjs.com/)) to CSS frameworks ([Bootstrap](http://getbootstrap.com/) and [Semantic UI](http://semantic-ui.com/)) and MVC frameworks ([AngularJS](https://angularjs.org/), [Ember](http://emberjs.com/), and a dozen others). This doesn't even begin to consider everyone is using [Node](https://nodejs.org/) to run all of the above tools and to serve up their [single-page applications](https://en.wikipedia.org/wiki/Single-page_application). Apparently nobody writes heavy, coupled web applications anymore.
@@ -14,7 +13,7 @@ The talk, which has slides [here](http://www.slideshare.net/SpringCentral/modern
 
 I'll admit I came out of that talk a bit scared. I thought that if I just found enough cool tools and put in a few hours outside of work to focus on frontend development and that "User Experience" thing I'd be OK. That talk was a wakeup call that I can't truly compete with frontend devs as a full-stack dev. It might have been at one point, but those days are definitely over.
 
-## Acceptance
+## Reaching Acceptance
 Since the conference in September I've had to come to terms with a few things:
 
 - The apps I build frontends for will not have the quality, flexibility, or customization of frontends built by frontend devs
