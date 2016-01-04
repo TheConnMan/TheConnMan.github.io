@@ -14,7 +14,7 @@ One of the items on my "To Learn" list recently was [WebSockets](https://en.wiki
 
 This means messages can be broadcast to connected clients near instantaneously, so no AJAX polling and no page refresh.
 
-My first experience with WebSockets was when I build a small trivia game which required all connected sessions to show and hide the trivia question simultaneous. That experience was tarnished by extensive use of Internet Explorer 8 and 9 by many of the users (older versions of IE don't support WebSockets and attempt to fall back to polling, often with poor results), so I hoped this experince would be a little better (and a little less "Enterprise"). I figured I'd try building the same thing everyone else seems to use WebSockets for: a chat app.
+My first experience with WebSockets was when I built a small trivia game which required all connected sessions to show and hide the trivia question simultaneous. That experience was tarnished by extensive use of Internet Explorer 8 and 9 by many of the users (older versions of IE don't support WebSockets and attempt to fall back to polling, often with poor results), so I hoped this experince would be a little better (and a little less "Enterprise"). I figured I'd try building the same thing everyone else seems to use WebSockets for: a chat app.
 
 ## Functionality
 The basic functionality is simple:
